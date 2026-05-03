@@ -131,3 +131,5 @@ print(result)
 Used as part of a personal workflow for automation and development assistance.
 
 Note: This project is currently a prototype/demo workflow and does not call a live LLM API by default.
+
+This project focuses on workflow design and prototyping rather than full production implementation.
