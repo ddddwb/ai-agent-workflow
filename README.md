@@ -50,3 +50,9 @@ def main():
 ⭐ Usage
 
 Used in daily workflow for automation tasks and development assistance.
+
+## 📁 Project Structure
+
+- agents/
+- docs/
+- main.py
