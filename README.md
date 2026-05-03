@@ -129,3 +129,5 @@ print(result)
 ⭐ Usage
 
 Used as part of a personal workflow for automation and development assistance.
+
+Note: This project is currently a prototype/demo workflow and does not call a live LLM API by default.
