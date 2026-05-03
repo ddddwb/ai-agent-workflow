@@ -56,3 +56,76 @@ Used in daily workflow for automation tasks and development assistance.
 - agents/
 - docs/
 - main.py
+
+
+AI Agent Workflow
+
+A lightweight multi-agent workflow system powered by LLMs, designed to automate development tasks, script generation, and content processing.
+
+---
+
+🚀 Overview
+
+This project transforms traditional prompt-based usage into a structured and reusable workflow:
+
+User Input → Task Planning → Multi-Agent Execution → Validation → Output
+
+---
+
+🧠 Architecture
+
+- MainAgent: Orchestrates task parsing and workflow control
+- CodeAgent: Generates automation scripts (Python / Shell)
+- TextAgent: Handles formatting and structured output
+- LogicAgent: Performs reasoning and validation
+
+---
+
+⚙️ Example
+
+from agents.main_agent import MainAgent
+
+agent = MainAgent()
+result = agent.run("Generate a batch video processing script")
+
+print(result)
+
+---
+
+📌 Use Cases
+
+- Automation script generation
+- Technical problem analysis
+- Content summarization and structuring
+
+---
+
+📁 Project Structure
+
+- agents/
+- utils/
+- docs/
+- examples/
+- main.py
+
+---
+
+📊 Status
+
+- Personal workflow prototype
+- Actively used in daily tasks
+- Continuously evolving
+
+---
+
+🔧 Future Work
+
+- API integration
+- Task automation execution
+- Deployment on server / container
+
+---
+
+⭐ Usage
+
+Used as part of a personal workflow for automation and development assistance.
